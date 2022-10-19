@@ -37,7 +37,7 @@
         
         _skipType = skipType;
         CGFloat y = XHStatusBarHeight;
-        self.frame = CGRectMake(XH_ScreenW-80,y, 70, 35);//方形
+        self.frame = CGRectMake(XH_ScreenW-80,y, 66, 24);//方形
         switch (skipType) {
             case SkipTypeRoundTime:
             case SkipTypeRoundText:
